@@ -50,6 +50,7 @@ INSTALLED_APPS = [
     'allauth.account',
     "allauth.socialaccount",
     'rest_auth.registration',
+    'corsheaders',
 ]
 
 MIDDLEWARE = [
@@ -101,7 +102,7 @@ DATABASES = {
         "NAME": 'travelmor_budget_app',
         'USER': 'kylezunino',
         "HOST": 'localhost',
-        "PASSWORD": '123456',
+
         "PORT": '5432',
     }
 }
